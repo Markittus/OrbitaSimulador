@@ -8,7 +8,7 @@ public class ControladorGeral extends Thread {
     private JLabel sol, terra, marte;
     private double angTerra = 0, angMarte = 0;
     private int RTerra = 60, RMarte = 130;
-    private int centroX = 250, centroY = 250;
+    private int centroX = 235, centroY = 235;
 
     public ControladorGeral(PanelObjetos panel) {
         terra = panel.getTerra();
